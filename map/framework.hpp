@@ -264,8 +264,7 @@ public:
     AskForUpdateMaps,
     Migrate
   };
-
-  DoAfterUpdate ToDoAfterUpdate() const;
+//  DoAfterUpdate ToDoAfterUpdate() const;
 
   storage::Storage & GetStorage() { return m_storage; }
   storage::Storage const & GetStorage() const { return m_storage; }
